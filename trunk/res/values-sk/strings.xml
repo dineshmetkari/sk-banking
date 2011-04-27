@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="version">Verzia $version. Vytvoril jjsan.</string>
+    <string name="app_name">Bankdroid</string>
+    <string name="widget_name_small">Bankdroid (Malý)</string>
+    <string name="widget_name_large">Bankdroid (Veľký)</string>
+    <string name="about">O Programe</string>
+    <string name="accounts_were_not_updated">Zostatok pre daný účet nemožno obnoviť</string>
+    <string name="updating_account_balance">Obnovovanie zostatku na účte...</string>
+    <string name="errors_when_updating">Chyba počas obnovovania</string>
+    <string name="logging_in">Prihlasovanie...</string>
+    <string name="could_not_create_account">Nemožno vytvoriť účet</string>
+    <string name="menu_edit">Upraviť</string>
+    <string name="menu_remove">Odstrániť</string>
+    <string name="invalid_username_password">Chybné meno alebo heslo.</string>
+    
+    <string name="invalid_card_number">Chybné číslo karty.</string>
+    <string name="unable_to_find">Nemožno nájsť</string>
+    <string name="no_accounts_found">Nenájdené účty</string>
+    <string name="transparent_background">Priehľadné pozadie</string>
+    <string name="bank_closed">Banka je momentálne zatvorená.</string>
+    
+    <string name="username">Užívateľ</string>
+    <string name="password">Heslo</string>
+    <string name="vubpin">PIN</string>
+    <string name="custom_name">Vlastné meno (voliteľné)</string>
+    <string name="bank">Banka</string>
+    <string name="error_desc">Posledná aktualizácia bola neúspešná a aktualizácie pre tento účet boli zakázané. Uistite sa, že ste zadali správne mneo a heslo a stlačte tlačidlo uložiť.</string>
+
+	<string name="name">Názov</string>
+	<string name="paymentaccount">Účet</string>
+    <string name="paymentcurrency">Mena</string>
+    <string name="paymentAmount">Suma</string>
+    <string name="paymentInfo">Info</string>
+    <string name="partner">Partner</string>
+    <string name="test">Test</string>
+    
+    <string name="pay">ZAPLATIŤ</string>
+    <string name="cancel">ZRUŠIŤ</string>
+    <string name="save">ULOŽIŤ</string>
+    
+	<string name="add_new_account">PRIDAŤ BANKU</string>
+	<string name="banks_instructions">Ešte ste nepridali žiadne účty. Stlačte tlačidlo pre pridanie nového účtu.</string>
+	
+	<string name="main_instructions">Ešte ste nepridali žiadne bankové účty, stlačte tlačidlo "Účty" v menu pre pridanie nového účtu.</string>
+	<string name="refresh_balance">OBNOVIŤ</string>
+
+	<string name="choose_an_account">Vyberte účet</string>
+	
+	
+	<!--  Settings  -->
+	<string name="security_and_privacy">Bezpečnosť a Ochrana</string>
+	<string name="enable_patternlock_title">Povoliť Zámok Vzorom</string>
+	<string name="enable_patternlock_summary">Zamknúť aplikáciu a widgety pomocou vzoru</string>
+	<string name="change_patternlock_title">Zmeniť vzor zamknutia</string>
+	<string name="change_patternlock_summary">Zmeniť súčasný vzor zamknutia</string>
+	<string name="blur_widget_title">Rozmazať zostatok na účte</string>
+	<string name="blur_widget_summary">Rozmazať zostatok na účte, po kliknutí na widget sa zaostrí na niekoľko sekúnd</string>
+	<string name="unblur_widget_timeout_title">Čas zaostrenia</string>
+	<string name="unblur_widget_timeout_summary">Rozmazať zostatok po tomto čase</string>
+	<string name="automatic_updates_title">Automatická Aktualizácia</string>
+	<string name="autoupdates_enabled_title">Povoliť</string>
+	<string name="autoupdates_enabled_summary">Povoliť Automatické Aktualizácie</string>
+	<string name="update_frequency_title">Frekvencia aktualizácií</string>
+	<string name="update_transaction_history_title">Aktualizácia histórie transakcií</string>
+	<string name="update_transaction_history_summary">Automaticky aktualizovať históriu transakcií pri aktualizácii</string>
+	<string name="appearance_title">Vzhľad</string>
+	<string name="round_widget_balance_title">Zaokrúhliť zostatok na widgete</string>
+	<string name="round_widget_balance_summary">Zobraziť zostatok na widgete bez desatinných čísiel</string>
+	<string name="widget_opens_transactions_title">Kliknutie na widget otvorí transakcie</string>
+	<string name="widget_opens_transactions_summary">Otvoriť obrazovku transakcií pri klinutí na widget. Ak vypnuté, zobrazí sa hlavná obrazovka.</string>
+	<string name="notifications_title">Upozornenia</string>
+	<string name="enable_notifications_title">Povoloť upozornenia</string>
+	<string name="enable_notifications_summary">Notify on account changes</string>
+	<string name="vibrate_title">Vibrácia</string>
+	<string name="vibrate_summary">Vibrovať pri zmene na účte</string>
+	<string name="notification_sound_title">Zvuk upozornenia</string>
+	<string name="notification_sound_summary">Vybrať zvuk upozornenia</string>
+	<string name="notification_sound_name">Vybrať zvuk</string>
+	<string name="account_types_title">Typ účtov</string>
+	<string name="account_types_summary">Zobraziť upozornenia len pre vybraný typ účtov</string>
+	<string name="remote_notifier_title">Integrácia Vzdialených Upozornení</string>
+	<string name="remote_notifier_enable_title">Povoliť</string>
+	<string name="remote_notifier_enable_summary">Povoliť integráciiu Vzdialených Upozornení</string>
+	<string name="remote_notifier_help_title">Čo sú to Vzdialené Upozornenia?</string>
+	<string name="remote_notifier_help_summary">Prečítajte si viac o Vzdialených Upozorneniach na ich webstránke</string>
+	<string name="openwatch_title">integrácia OpenWatch</string>
+	<string name="openwatch_enable_title">Povoliť</string>
+	<string name="openwatch_enable_summary">Povoliť integráciu OpenWatch</string>
+	<string name="openwatch_vibrate_title">Vibrovanie</string>
+	<string name="openwatch_vibrate_summary">Vibrovať zariadenie OpenWatch</string>
+	<string name="openwatch_help_title">Čo je OpenWatch?</string>
+	<string name="openwatch_help_summary">Prečítajte si viac o OpenWatch na ich webstránke</string>
+	<string name="share_data_title">Zdieľať dáta</string>
+	<string name="share_data_enable_title">Povoliť zdieľanie dát</string>
+	<string name="share_data_enable_summary">Povoliť iným aplikáciám prístup k histórii transakcií</string>
+	<string name="api_key_title">API Kľúč</string>
+	<string name="api_key_summary">Použite tento kľúč pre povolenie prístupu pre autorizované aplikácie</string>
+	
+	<string name="update_frequency">Frevencia aktualizácií</string>
+	<string name="access_code">Prístupový kód</string>
+	<string name="access_code_repeat">Zopakujte prítupový kód</string>
+	<string name="passwords_mismatch">Zadali ste dva rôzne kódy. Zadajte rovanký kód.</string>
+	<string name="passwords_mismatch_title">Nezhodné prístupové kódy</string>
+	<string name="pin_desc">Zadajte prístupový kód ak si prajete ochrániť aplikáciu a widgety.</string>
+	<string name="notify_on_change">Upozornenie na zmeny</string>
+	<string name="with_sound">Zvukom</string>
+	<string name="vibrate">Vubráciou</string>
+	<string name="notify_account_types">Len pre nasledujúce typy účtov:</string>
+	<string name="funds">Hotovosť</string>
+	<string name="ccards">Kreditné karty</string>
+	<string name="loans">Pôžičky</string>
+	<string name="deposit_account">Depozitné účty</string>
+	<string name="other">Iné</string>
+	<!--  /Settings  -->
+	
+    <string name="login">Prihlásenie</string>
+    <string name="invalid_access_code">Chybný prístpový kód. Skúste znovu.</string>
+    
+
+    <string name="disabled">Zakázané</string>
+    <string name="minutes">minúty</string>
+    <string name="hour">hodina</string>
+    <string name="hours">hodiny</string>
+    <string name="daily">Denne</string>
+    
+    <string name="popup_refresh">Obnoviť</string>
+    <string name="popup_edit">Upraviť</string>
+    <string name="popup_www">WWW</string>
+    <string name="popup_remove">Odstrániť</string>
+
+    <string name="popup_hide">Skryť</string>
+    <string name="popup_unhide">Zobraziť</string>
+    <string name="popup_enable_notifications">Povoliť upozornenia</string>
+    <string name="popup_disable_notifications">Zakázať upozornenia</string>
+    <string name="popup_payments">Zaplatiť z Účtu</string>
+        
+    <string name="remove_bank_msg">Naozaj si prajete odstrániť túto banku?</string>
+    <string name="remove_bank_title">Odstrániť banku?</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+    
+    <string name="menu_show_hidden">Zobraziť skryté účty</string>
+    <string name="menu_hide_hidden">Skryť skryté účty</string>
+
+    <string name="tran_desc">Pre tento účet nie je žiadna história transakcií.</string>
+    
+    <string name="thanks_to">Poďakovanie</string>
+    <string name="thanks"> 
+    Wendell Fernandes (Icon)
+	\nBankDroid
+     </string>
+     
+     
+    <!-- Lock Pattern settings -->
+    <!-- Unlock header -->
+    <string name="patternlock_header">Nakreslite vzor pre odomknutie Bankdroidu</string>
+    <!-- Security & location settings screen, header -->
+    <string name="lock_settings_title">Vzor odomknutia obrazovky</string>
+    <!-- Security & location settings screen, setting option name -->
+    <string name="lockpattern_change_lock_pattern_label">Zmeniť odomykací vzor</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern".  We first ask the user toe nter the current pattern, and this is the message seen -->
+    <string name="lockpattern_need_to_unlock">Potvrdiť odomykací vzor</string>
+    <!-- Do not translate. -->
+    <string name="lockpattern_need_to_unlock_footer"></string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction if user draws incorrect pattern -->
+    <string name="lockpattern_need_to_unlock_wrong">Prepáčte, skúste znovu:</string>
+    <!-- Do not translate. -->
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen.  This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns)..-->
+    <string name="lockpattern_recording_intro_header">Nakreslite odomykací vzor</string>
+    <!-- Security & location settings screen, change unlock pattern screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
+    <string name="lockpattern_recording_intro_footer">Stlačte Menu pre pomoc.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen while drawing pattern -->
+    <string name="lockpattern_recording_inprogress">Po dokončení zdvihnte prst.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen if user doesn't connect enough dots -->
+    <string name="lockpattern_recording_incorrect_too_short">Spojte aspoň <xliff:g id="number">%d</xliff:g> body(ov). Skúste znovu:</string>
+    <!-- Security & location settings screen, change unlock pattern screen message on top of screen after drawing pattern -->
+    <string name="lockpattern_pattern_entered_header">Vzor uložený!</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
+    <string name="lockpattern_need_to_confirm">Nakreslite vzor znovu pre potvrdenie:</string>
+    <string name="lockpattern_pattern_confirmed_header">Váš nový vzor pre odomknutie:</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  When they are ready to draw it once again to confirm it, they press this button. -->
+    <string name="lockpattern_confirm_button_text">Potvrdiť</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
+    <string name="lockpattern_restart_button_text">Znovu</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. If they are supposed to enter their current pattern before being able to draw another one, and they screw up, they hit this button to try again -->
+    <string name="lockpattern_retry_button_text">Opakovať</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. Once they draw a new pattern and confirm it by drawing it again, they press this button to exit -->
+    <string name="lockpattern_continue_button_text">Pokračovať</string>
+    <!-- Security & location settings screen, unlock screen activity title -->
+    <string name="lockpattern_settings_title">Vzor odomknutia</string>
+    <!-- Security & location settings screen, setting check box title if the unlock pattern MUST be drawn everytime they turn on the screen -->
+    <string name="lockpattern_settings_enable_title">Požadovať vzor</string>
+    <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
+    <string name="lockpattern_settings_enable_summary">Musíte nakresliť vzor pre odomknutie obrazovky</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
+    <string name="lockpattern_settings_enable_visible_pattern_title">Použiť viditeľný vzor</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether tactile feedback will be produced when the user draws the pattern.-->
+    <string name="lockpattern_settings_enable_tactile_feedback_title">Použiť hmatovú odozvu</string>
+    <!-- Security & location settings screen, setting option name when user has never set an unlock pattern -->
+    <string name="lockpattern_settings_choose_lock_pattern">Nastaviť vzor odomknutia</string>
+    <!-- Security & location settings screen, setting option name when user has previously set an unlock pattern and wants to change to a new pattern -->
+    <string name="lockpattern_settings_change_lock_pattern">Zmeniť vzor odomknutia</string>
+    <!-- Security & location settings screen, the help instructions (an animation) caption -->
+    <string name="lockpattern_settings_help_how_to_record">Ako nakresliť vzor odomknutia</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen after too many incorrect attempts -->
+    <string name="lockpattern_too_many_failed_confirmation_attempts_header">Príliš veľa chybných pokusov!</string>
+    <!-- Security & location settings screen, change unlock pattern screen countdown hint on bottom of screen after too many incorrect attempts -->
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Skúste znovu za <xliff:g id="number">%d</xliff:g> sekúnd.</string>
+
+    <!-- ChooseLockPatternTutorial --> <skip />
+    <!-- ChooseLockPatternTutorial, button labels: This is to cancel the tutorial -->
+    <string name="skip_button_label">Zrušiť</string>
+    <!-- ChooseLockPatternTutorial, button labels: Continue to the next page of the tutorial -->
+    <string name="next_button_label">Ďalej</string>
+    <!-- ChooseLockPatternTutorial, tutorial screen title -->
+    <string name="lock_title">Zabezpečenie Vášho telefónu</string>
+    <!-- ChooseLockPatternTutorial, tutorial screen text -->
+    <string name="lock_intro_message"><font size="17">Ochráňte svoj telefón pred nepovoleným použitím vytvorením valstného vzoru zamknutia.
+        \n<font height="17">\n</font><b>1</b>\u00A0 Na ďalšej obrazovke si pozrite nakreslenie vzoru.
+        \n<font height="17">\n</font><b>2</b>\u00A0 Keď ste pripravený nakreslite svoj vlastný vzor. Vyskúšajte si viacero vzorov, ale spojte aspoň štyri body.
+        \n<font height="17">\n</font><b>3</b>\u00A0 Nakreslite znovu svoj vzor pre potvrdenie.
+        \n<font height="17">\n</font><b>Pripravený? Zvoľte \u201CĎalej\u201D</b>.
+        \n<font height="3">\n</font>Pre neochránenie Vášho telefónu, zvoľte \u201CZrušiť\u201D.</font>
+    </string>    
+        
+    <!-- ChooseLockPatternExample --> <skip />
+    <!-- ChooseLockPatternExample, screen title that shows an example pattern -->
+    <string name="lock_example_title">Vzorový vzor</string>
+    <!-- ChooseLockPatternExample, screen hint text at bottom of screen. These are instructions and rules for drawing a good patttern -->
+    <string name="lock_example_message">Spojte aspoň štyri body.\n
+        \nStlačte \u201CĎalej\u201D keď ste pripravený nakresliť svoj vzor.
+    </string>
+	<string name="lock_cancel">Zrušiť</string>
+	<string name="lock_ok">Ok</string>
+         
+	<string name="card_id">ID Karty</string>
+	<string name="card_number">Číslo karty</string>
+	
+	<string name="permission_provider_label">Základné informáice a história transakcií</string>
+	<string name="permission_provider_desc">Umožňuje aplikácii zisiiť ktoré banky a účty sú konfigurované v Bankdroide. Vaše údaje z banky sa nikam neposialjú. Taktiež je možné pristupovať k histórii transakcií.</string>
+</resources>

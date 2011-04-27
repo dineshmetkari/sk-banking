@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array
+		name="refreshrateNames">
+		<item>15 minút</item>
+		<item>30 minút</item>
+		<item>1 hodina</item>
+		<item>2 hodiny</item>
+		<item>4 hodiny</item>
+		<item>8 hodín</item>
+		<item>16 hodín</item>
+		<item>Denne</item>
+	</string-array>
+	<string-array
+		name="unblurTimeoutNames">
+		<item>1 sekunda</item>
+		<item>2 sekundy</item>
+		<item>3 sekundy</item>
+		<item>4 sekundy</item>
+		<item>5 sekúnd</item>
+		<item>10 sekúnd</item>
+		<item>15 sekúnd</item>
+		<item>20 sekúnd</item>
+	</string-array>	
+</resources>

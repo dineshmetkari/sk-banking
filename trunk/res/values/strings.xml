@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="version">Version $version by jjsan</string>
+    <string name="app_name">SK-Banking</string>
+    <string name="widget_name_small">Bankdroid (Small)</string>
+    <string name="widget_name_large">Bankdroid (Large)</string>
+    <string name="about">About</string>
+    <string name="accounts_were_not_updated">Balance for the following accounts could not be updated</string>
+    <string name="updating_account_balance">Refreshing account balance...</string>
+    <string name="errors_when_updating">Errors while refreshing</string>
+    <string name="logging_in">Signing in...</string>
+    <string name="could_not_create_account">Could not create account</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_remove">Remove</string>
+    <string name="invalid_username_password">Invalid username or password.</string>
+    
+    <string name="invalid_card_number">Invalid card number.</string>
+    <string name="unable_to_find">Unable to find</string>
+    <string name="no_accounts_found">No accounts found</string>
+    <string name="transparent_background">Transparent background</string>
+    <string name="bank_closed">The bank is currently closed.</string>
+    
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="vubpin">PIN</string>
+    
+    <string name="custom_name">Custom Name (optional)</string>
+    <string name="bank">Bank</string>
+    <string name="error_desc">The last update was unsuccessful and updates for this account have been disabled. Make sure you\'ve entered your username and password correctly and press the save button.</string>
+
+
+    <string name="cancel">CANCEL</string>
+    <string name="save">SAVE</string>
+    
+	<string name="add_new_account">ADD BANK</string>
+	<string name="banks_instructions">You have not added any bank accounts yet. Press the button to add a new account.</string>
+	
+	<string name="main_instructions">You have not added any bank accounts yet, press the "Accounts" button in the menu to add a new account.</string>
+	<string name="refresh_balance">REFRESH</string>
+
+	<string name="choose_an_account">Choose an account</string>
+	
+	
+	<!--  Settings  -->
+	<string name="security_and_privacy">Security and Privacy</string>
+	<string name="enable_patternlock_title">Enable Pattern Lock</string>
+	<string name="enable_patternlock_summary">Lock the app and widgets with a pattern lock</string>
+	<string name="change_patternlock_title">Change lock pattern</string>
+	<string name="change_patternlock_summary">Change your current lock pattern</string>
+	<string name="blur_widget_title">Blur widget balance</string>
+	<string name="blur_widget_summary">Blur the balance on the widget, click widget to unblur for a few seconds</string>
+	<string name="unblur_widget_timeout_title">Unblur timeout</string>
+	<string name="unblur_widget_timeout_summary">Blur the balance again after this many seconds</string>
+	<string name="automatic_updates_title">Automatic Updates</string>
+	<string name="autoupdates_enabled_title">Enable</string>
+	<string name="autoupdates_enabled_summary">Enable automatic updates</string>
+	<string name="update_frequency_title">Update frequency</string>
+	<string name="update_transaction_history_title">Update transaction history</string>
+	<string name="update_transaction_history_summary">Update transaction history when updating automatically</string>
+	<string name="appearance_title">Appearance</string>
+	<string name="round_widget_balance_title">Round widget balance</string>
+	<string name="round_widget_balance_summary">Display the balance on widgets without decimals</string>
+	<string name="widget_opens_transactions_title">Widget click opens transactions</string>
+	<string name="widget_opens_transactions_summary">Open the transactions screen when a widget is clicked. If unchecked the main screen is shown.</string>
+	<string name="notifications_title">Notifications</string>
+	<string name="enable_notifications_title">Enable notifications</string>
+	<string name="enable_notifications_summary">Notify on account changes</string>
+	<string name="vibrate_title">Vibrate</string>
+	<string name="vibrate_summary">Vibrate on account changes</string>
+	<string name="notification_sound_title">Notification sound</string>
+	<string name="notification_sound_summary">Select notification sound</string>
+	<string name="notification_sound_name">Select sound</string>
+	<string name="account_types_title">Account types</string>
+	<string name="account_types_summary">Only show notifications for selected account types</string>
+	<string name="remote_notifier_title">Remote Notifier Integration</string>
+	<string name="remote_notifier_enable_title">Enable</string>
+	<string name="remote_notifier_enable_summary">Enable Remote Notifier integration</string>
+	<string name="remote_notifier_help_title">What is Remote Notifier?</string>
+	<string name="remote_notifier_help_summary">Read more about Remote Notifier on their website</string>
+	<string name="openwatch_title">OpenWatch Integration</string>
+	<string name="openwatch_enable_title">Enable</string>
+	<string name="openwatch_enable_summary">Enable OpenWatch integration</string>
+	<string name="openwatch_vibrate_title">Vibrate</string>
+	<string name="openwatch_vibrate_summary">Vibrate the OpenWatch device</string>
+	<string name="openwatch_help_title">What is OpenWatch?</string>
+	<string name="openwatch_help_summary">Read more about OpenWatch on their website</string>
+	<string name="share_data_title">Share data</string>
+	<string name="share_data_enable_title">Enable data sharing</string>
+	<string name="share_data_enable_summary">Grant other installed apps access to your transaction history</string>
+	<string name="api_key_title">API Key</string>
+	<string name="api_key_summary">Use this key to allow access for trusted applications</string>
+	
+	<string name="update_frequency">Update frequency</string>
+	<string name="access_code">Access code</string>
+	<string name="access_code_repeat">Repeat access code</string>
+	<string name="passwords_mismatch">You\'ve entered two different access codes. Enter the same password in both password fields.</string>
+	<string name="passwords_mismatch_title">Access code mismatch</string>
+	<string name="pin_desc">Enter an access code if you want to password protect the application and widgets.</string>
+	<string name="notify_on_change">Notify on changes</string>
+	<string name="with_sound">With sound</string>
+	<string name="vibrate">Vibrate</string>
+	<string name="notify_account_types">Only for the following account types:</string>
+	<string name="funds">Funds</string>
+	<string name="ccards">Credit cards</string>
+	<string name="loans">Loans</string>
+	<string name="deposit_account">Deposit accounts</string>
+	<string name="other">Other</string>
+	<!--  /Settings  -->
+	
+    <string name="login">Login</string>
+    <string name="invalid_access_code">Invalid access code. Try again.</string>
+    
+
+    <string name="disabled">Disabled</string>
+    <string name="minutes">minutes</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="daily">Daily</string>
+    
+    <string name="popup_refresh">Refresh</string>
+    <string name="popup_edit">Edit</string>
+    <string name="popup_www">WWW</string>
+    <string name="popup_remove">Remove</string>
+
+    <string name="popup_hide">Hide</string>
+    <string name="popup_unhide">Unhide</string>
+    <string name="popup_enable_notifications">Enable notifications</string>
+    <string name="popup_disable_notifications">Disable notifications</string>
+        
+    <string name="remove_bank_msg">Are you sure you want to remove this bank?</string>
+    <string name="remove_bank_title">Remove bank?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="menu_show_hidden">Show hidden accounts</string>
+    <string name="menu_hide_hidden">Hide hidden accounts</string>
+
+    <string name="tran_desc">No transaction history available for this account.</string>
+    
+    <string name="thanks_to">Thanks to</string>
+    <string name="thanks"> 
+    Wendell Fernandes (Icon)
+	\nBankDroid
+     </string>
+     
+     
+    <!-- Lock Pattern settings -->
+    <!-- Unlock header -->
+    <string name="patternlock_header">Draw pattern to unlock Bankdroid</string>
+    <!-- Security & location settings screen, header -->
+    <string name="lock_settings_title">Screen unlock pattern</string>
+    <!-- Security & location settings screen, setting option name -->
+    <string name="lockpattern_change_lock_pattern_label">Change unlock pattern</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern".  We first ask the user toe nter the current pattern, and this is the message seen -->
+    <string name="lockpattern_need_to_unlock">Confirm saved pattern</string>
+    <!-- Do not translate. -->
+    <string name="lockpattern_need_to_unlock_footer"></string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction if user draws incorrect pattern -->
+    <string name="lockpattern_need_to_unlock_wrong">Sorry, try again:</string>
+    <!-- Do not translate. -->
+    <string name="lockpattern_need_to_unlock_wrong_footer"></string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen.  This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns)..-->
+    <string name="lockpattern_recording_intro_header">Draw an unlock pattern</string>
+    <!-- Security & location settings screen, change unlock pattern screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
+    <string name="lockpattern_recording_intro_footer">Press Menu for help.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen while drawing pattern -->
+    <string name="lockpattern_recording_inprogress">Release finger when done.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen if user doesn't connect enough dots -->
+    <string name="lockpattern_recording_incorrect_too_short">Connect at least <xliff:g id="number">%d</xliff:g> dots. Try again:</string>
+    <!-- Security & location settings screen, change unlock pattern screen message on top of screen after drawing pattern -->
+    <string name="lockpattern_pattern_entered_header">Pattern recorded!</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
+    <string name="lockpattern_need_to_confirm">Draw pattern again to confirm:</string>
+    <string name="lockpattern_pattern_confirmed_header">Your new unlock pattern:</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  When they are ready to draw it once again to confirm it, they press this button. -->
+    <string name="lockpattern_confirm_button_text">Confirm</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
+    <string name="lockpattern_restart_button_text">Redraw</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. If they are supposed to enter their current pattern before being able to draw another one, and they screw up, they hit this button to try again -->
+    <string name="lockpattern_retry_button_text">Retry</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. Once they draw a new pattern and confirm it by drawing it again, they press this button to exit -->
+    <string name="lockpattern_continue_button_text">Continue</string>
+    <!-- Security & location settings screen, unlock screen activity title -->
+    <string name="lockpattern_settings_title">Unlock pattern</string>
+    <!-- Security & location settings screen, setting check box title if the unlock pattern MUST be drawn everytime they turn on the screen -->
+    <string name="lockpattern_settings_enable_title">Require pattern</string>
+    <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
+    <string name="lockpattern_settings_enable_summary">Must draw pattern to unlock screen</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
+    <string name="lockpattern_settings_enable_visible_pattern_title">Use visible pattern</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether tactile feedback will be produced when the user draws the pattern.-->
+    <string name="lockpattern_settings_enable_tactile_feedback_title">Use tactile feedback</string>
+    <!-- Security & location settings screen, setting option name when user has never set an unlock pattern -->
+    <string name="lockpattern_settings_choose_lock_pattern">Set unlock pattern</string>
+    <!-- Security & location settings screen, setting option name when user has previously set an unlock pattern and wants to change to a new pattern -->
+    <string name="lockpattern_settings_change_lock_pattern">Change unlock pattern</string>
+    <!-- Security & location settings screen, the help instructions (an animation) caption -->
+    <string name="lockpattern_settings_help_how_to_record">How to draw an unlock pattern</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen after too many incorrect attempts -->
+    <string name="lockpattern_too_many_failed_confirmation_attempts_header">Too many incorrect attempts!</string>
+    <!-- Security & location settings screen, change unlock pattern screen countdown hint on bottom of screen after too many incorrect attempts -->
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+
+    <!-- ChooseLockPatternTutorial --> <skip />
+    <!-- ChooseLockPatternTutorial, button labels: This is to cancel the tutorial -->
+    <string name="skip_button_label">Cancel</string>
+    <!-- ChooseLockPatternTutorial, button labels: Continue to the next page of the tutorial -->
+    <string name="next_button_label">Next</string>
+    <!-- ChooseLockPatternTutorial, tutorial screen title -->
+    <string name="lock_title">Securing your phone</string>
+    <!-- ChooseLockPatternTutorial, tutorial screen text -->
+    <string name="lock_intro_message"><font size="17">Protect your phone from unauthorized use by creating a personal screen unlock pattern.
+        \n<font height="17">\n</font><b>1</b>\u00A0 On the next screen, watch while an example pattern is drawn.
+        \n<font height="17">\n</font><b>2</b>\u00A0 When ready, draw your own personal unlock pattern. Experiment with different patterns but connect at least four dots.
+        \n<font height="17">\n</font><b>3</b>\u00A0 Redraw your pattern to confirm.
+        \n<font height="17">\n</font><b>Ready to start? Select \u201CNext\u201D</b>.
+        \n<font height="3">\n</font>To leave your phone unprotected, select \u201CCancel\u201D.</font>
+    </string>    
+        
+    <!-- ChooseLockPatternExample --> <skip />
+    <!-- ChooseLockPatternExample, screen title that shows an example pattern -->
+    <string name="lock_example_title">Example pattern</string>
+    <!-- ChooseLockPatternExample, screen hint text at bottom of screen. These are instructions and rules for drawing a good patttern -->
+    <string name="lock_example_message">Connect at least four dots.\n
+        \nSelect \u201CNext\u201D when you\u2019re ready to draw your own pattern.
+    </string>
+	<string name="lock_cancel">Cancel</string>
+	<string name="lock_ok">Ok</string>
+         
+	<string name="card_id">Card ID</string>
+	<string name="card_number">Card number</string>
+	
+	<string name="permission_provider_label">Basic account information  and the transaction history</string>
+	<string name="permission_provider_desc">Allows the application to access what banks and accounts are configured in BankDroids. Your Bank credentials are not exposed. Transaction history can also be accessed.</string>
+</resources>

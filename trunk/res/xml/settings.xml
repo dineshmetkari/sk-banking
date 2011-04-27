@@ -1,0 +1,195 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/security_and_privacy">
+		<CheckBoxPreference
+			android:key="patternlock_enabled"
+			android:defaultValue="false"
+			android:title="@string/enable_patternlock_title"
+			android:summary="@string/enable_patternlock_summary" />
+		<Preference
+			android:title="@string/change_patternlock_title"
+			android:summary="@string/change_patternlock_summary"
+			android:key="patternlock_change"
+			android:dependency="patternlock_enabled" />
+		<CheckBoxPreference
+			android:key="widget_blur_balance"
+			android:defaultValue="false"
+			android:title="@string/blur_widget_title"
+			android:summary="@string/blur_widget_summary" />
+		<ListPreference
+			android:title="@string/unblur_widget_timeout_title"
+			android:key="widget_blur_balance_timeout"
+			android:defaultValue="5"
+			android:entries="@array/unblurTimeoutNames"
+			android:entryValues="@array/unblurTimeoutValues"
+			android:summary="@string/unblur_widget_timeout_summary"
+			android:dependency="widget_blur_balance" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/automatic_updates_title">
+		<CheckBoxPreference
+			android:key="autoupdates_enabled"
+			android:defaultValue="true"
+			android:title="@string/autoupdates_enabled_title"
+			android:summary="@string/autoupdates_enabled_summary" />
+		<ListPreference
+			android:title="@string/update_frequency_title"
+			android:key="refresh_rate"
+			android:defaultValue="60"
+			android:entries="@array/refreshrateNames"
+			android:entryValues="@array/refreshrateValues"
+			android:dependency="autoupdates_enabled" />
+		<CheckBoxPreference
+			android:key="autoupdates_transactions_enabled"
+			android:defaultValue="true"
+			android:title="@string/update_transaction_history_title"
+			android:summary="@string/update_transaction_history_summary" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/appearance_title">
+		<CheckBoxPreference
+			android:key="round_widget_balance"
+			android:defaultValue="false"
+			android:title="@string/round_widget_balance_title"
+			android:summary="@string/round_widget_balance_summary" />
+		<CheckBoxPreference
+			android:key="widget_opens_transactions"
+			android:defaultValue="true"
+			android:title="@string/widget_opens_transactions_title"
+			android:summary="@string/widget_opens_transactions_summary" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/notifications_title">
+		<CheckBoxPreference
+			android:key="notify_on_change"
+			android:defaultValue="true"
+			android:title="@string/enable_notifications_title"
+			android:summary="@string/enable_notifications_summary" />
+		<CheckBoxPreference
+			android:key="notify_with_vibration"
+			android:defaultValue="true"
+			android:title="@string/vibrate_title"
+			android:summary="@string/vibrate_summary"
+			android:dependency="notify_on_change" />
+		<RingtonePreference
+			android:key="notification_sound"
+			android:title="@string/notification_sound_title"
+			android:summary="@string/notification_sound_summary"
+			android:ringtoneType="notification"
+			android:showDefault="true"
+			android:showSilent="true"
+			android:dependency="notify_on_change" android:name="@string/notification_sound_name"/>
+		<PreferenceScreen
+			android:key="account_types_screen"
+			android:title="@string/account_types_title"
+			android:summary="@string/account_types_summary"
+			android:dependency="notify_on_change">
+			<CheckBoxPreference
+				android:key="notify_for_deposit"
+				android:defaultValue="true"
+				android:title="@string/deposit_account" />
+			<CheckBoxPreference
+				android:key="notify_for_funds"
+				android:defaultValue="false"
+				android:title="@string/loans" />
+			<CheckBoxPreference
+				android:key="notify_for_loans"
+				android:defaultValue="false"
+				android:title="@string/funds" />
+			<CheckBoxPreference
+				android:key="notify_for_ccards"
+				android:defaultValue="true"
+				android:title="@string/ccards" />
+			<CheckBoxPreference
+				android:key="notify_for_other"
+				android:defaultValue="false"
+				android:title="@string/other" />
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:key="remotenotifier_screen"
+			android:title="@string/remote_notifier_title"
+			android:dependency="notify_on_change">
+			<CheckBoxPreference
+				android:key="notify_remotenotifier"
+				android:defaultValue="false"
+				android:title="@string/remote_notifier_enable_title"
+				android:summary="@string/remote_notifier_enable_summary" />
+			<Preference
+				android:title="@string/remote_notifier_help_title"
+				android:summary="@string/remote_notifier_help_summary"
+				android:key="remotenotifier_help" />
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:key="openwatch_screen"
+			android:title="@string/openwatch_title"
+			android:dependency="notify_on_change">
+			<CheckBoxPreference
+				android:key="notify_openwatch"
+				android:defaultValue="false"
+				android:title="@string/openwatch_enable_title"
+				android:summary="@string/openwatch_enable_summary" />
+			<CheckBoxPreference
+				android:key="notify_openwatch_vibrate"
+				android:defaultValue="false"
+				android:title="@string/openwatch_vibrate_title"
+				android:summary="@string/openwatch_vibrate_summary" />
+			<Preference
+				android:title="@string/openwatch_help_title"
+				android:summary="@string/openwatch_help_summary"
+				android:key="openwatch_help" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/share_data_title">
+	<CheckBoxPreference
+		android:title="@string/share_data_enable_title"
+		android:summary="@string/share_data_enable_summary"
+		android:key="content_provider_enabled" />
+	<EditTextPreference
+		android:title="@string/api_key_title"
+		android:key="content_provider_api_key"
+		android:dependency="content_provider_enabled"
+		android:summary="@string/api_key_summary" />
+</PreferenceCategory>
+	<PreferenceCategory
+		android:title="Debug">
+		<PreferenceScreen
+			android:key="debug_screen_pre"
+			android:title="Debug Settings"
+			android:summary="Don't touch if you don't know what you're doing">
+			<PreferenceScreen
+				android:key="debug_screen"
+				android:title="Seriously"
+				android:summary="You might break things">
+				<CheckBoxPreference
+					android:key="debug_mode"
+					android:defaultValue="false"
+					android:title="Enable"
+					android:summary="Enable debug mode" />
+				<CheckBoxPreference
+					android:key="debug_refreshrate_in_seconds"
+					android:defaultValue="false"
+					android:title="Update freq. in sec."
+					android:summary="Update frequenzy is given in seconds instead of minutes"
+					android:dependency="debug_mode" />
+				<CheckBoxPreference
+					android:key="debug_only_testbank"
+					android:defaultValue="false"
+					android:title="Testbank only"
+					android:summary="Only auto update 'Testbank' banks"
+					android:dependency="debug_mode" />
+				<CheckBoxPreference
+					android:key="debug_coop_sendmail"
+					android:defaultValue="false"
+					android:title="Coop - Mail on error"
+					android:summary="Open your email client with the html response when Bankdroid fails to login to your Coop account."
+					android:dependency="debug_mode" />
+			<Preference
+				android:title="Test notification"
+				android:summary="A demo notification"
+				android:key="test_notification" />								
+			</PreferenceScreen>
+		</PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>
