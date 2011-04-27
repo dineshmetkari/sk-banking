@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout01"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background_repeat"
+	android:layout_width="fill_parent">
+
+	<ScrollView
+
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:fillViewport="true" 
+		android:layout_above="@+id/TableLayout01">
+		<LinearLayout
+			android:id="@+id/LinearLayout01"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/txtErrorDesc"
+			android:layout_width="fill_parent" 
+			android:orientation="vertical"
+			android:layout_alignParentTop="true"
+			android:padding="10dp">
+			<!-- Partner -->
+			<TextView android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:typeface="sans" 
+				android:textSize="20sp" 
+				android:text="@string/partner" />
+			<Spinner 
+				android:layout_height="wrap_content" 
+				android:layout_width="fill_parent" 
+				android:id="@+id/spnPartner"/>
+			<!-- Name -->
+			<TextView android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:typeface="sans" 
+				android:textSize="20sp" 
+				android:text="@string/name" />
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/edtPartnerName" 
+				android:inputType="textEmailAddress"/>
+			<!-- Account -->
+			<TextView android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:typeface="sans" 
+				android:textSize="20sp" 
+				android:text="@string/paymentaccount" />
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/edtPaymentAccount" 
+				android:inputType="textEmailAddress"/>
+			<!-- Amount -->
+			<TextView android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:typeface="sans" 
+				android:textSize="20sp" 
+				android:text="@string/paymentAmount" />
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/edtPaymentAmount" 
+				android:inputType="textEmailAddress"/>
+			<!-- Currency -->
+			<TextView android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:typeface="sans" 
+				android:textSize="20sp" 
+				android:text="@string/paymentcurrency" />
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/edtPaymentCurrency" 
+				android:inputType="textEmailAddress"/>
+			<!-- Additional Info -->
+			<TextView android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:typeface="sans" 
+				android:textSize="20sp" 
+				android:text="@string/paymentInfo" />
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/edtPaymentInfo" 
+				android:inputType="textEmailAddress"/>				
+			<Button
+				android:text="@string/pay"
+				android:id="@+id/btnPay"
+				style="@style/Menu_Button"/>							
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

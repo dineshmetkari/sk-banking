@@ -1,0 +1,706 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>VÚB - IB</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="robots" content="all">
+		<meta name="author" content="Unisys Slovakia s.r.o.">
+		<meta name="revisit-after" content="10 days">
+		<LINK href="Css/style.css" type="text/css" rel="stylesheet">
+			<link href="Css/print.css" type="text/css" rel="stylesheet" media="print">
+	</HEAD>
+	<body class="hpBody">
+		<form name="Form1" method="post" action="" id="Form1">
+<input type="hidden" name="__LANGUAGE" value="sk" />
+<input type="hidden" name="__TOKEN_EX" value="" />
+<input type="hidden" name="__TOKEN" value="08239da0-44c2-4ad7-b8e1-e29f176f3d20" />
+<input type="hidden" name="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" value="dDwtOTA0MzA4Nzg2OztsPERWaWV3OnRibFRyYW5zYWN0aW9uRGF0YTpjaGJBY2NlbFBheW1lbnQ7RFZpZXc6Tm90aWZpYWN0aW9uc1RhYmxlOk5vdGlmX0MwX0lzU2VsZWN0ZWQ7RFZpZXc6Tm90aWZpYWN0aW9uc1RhYmxlOk5vdGlmX0MwX0lzRW5jcnlwdGVkO0RWaWV3OnRibFRyYW5zYWN0aW9uRGF0YTpjaGJBY2NlbFBheW1lbnQ7RFZpZXc6Tm90aWZpYWN0aW9uc1RhYmxlOk5vdGlmX0MwX0lzU2VsZWN0ZWQ7Pj4qK+naoy63y/eyToxIABe9cjdqUw==" />
+
+<script language="javascript" type="text/javascript">
+<!--
+	function __doPostBack(eventTarget, eventArgument) {
+		var theform;
+		if (window.navigator.appName.toLowerCase().indexOf("microsoft") > -1) {
+			theform = document.Form1;
+		}
+		else {
+			theform = document.forms["Form1"];
+		}
+		theform.__EVENTTARGET.value = eventTarget.split("$").join(":");
+		theform.__EVENTARGUMENT.value = eventArgument;
+		theform.submit();
+	}
+// -->
+</script>
+<script language="javascript" type="text/javascript" src="/ClientScripts/Controls.js"></script>
+
+	<script language="javascript" type="text/javascript" src="/ClientScripts/Language_sk.js"></script>
+
+	<script language="javascript" type="text/javascript" src="/ClientScripts/Common.js"></script>
+
+	<script language="javascript" type="text/javascript" src="/ClientScripts/ForView/DomesticPayments/Payment.js"></script>
+
+	<script language="javascript" type="text/javascript">function v_FP_DView(){controls_FindPartnerEx('DView_tblPartner_ddPartner', 'DView_tblPartner_txtContraAcctNbr', 'DView_tblPartner_ddContraBankCode');}</script>
+
+	<script language="javascript" type="text/javascript" src="/ClientScripts/Format.js"></script>
+
+	<script language="javascript" type="text/javascript" src="/ClientScripts/Validation.js"></script>
+
+
+			<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr id="header">
+					<td>
+						<div id="viewHeader_Logged">
+	<TABLE height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0">
+		<TR vAlign="top">
+			<TD width="298">
+				<img id="viewHeader_Image3" src="/Img/LogoVUB.gif" alt="" border="0" height="69" width="298" /></TD>
+			<TD id="headerRight" align="right" height="100%">
+				<TABLE height="100%" cellSpacing="0" cellPadding="0" border="0">
+					<TR>
+						<TD class="top" style="VERTICAL-ALIGN: top">
+							<span id="viewHeader_LabelDate">30.03.2011</span>&nbsp;&nbsp;
+							<SPAN id="viewHeader_spLastLogin"><SPAN class="blue">
+									Posledné prihlásenie:</SPAN>
+								<span id="viewHeader_LoginLabelDate">30. 03. 2011 15:02</span></SPAN><BR>
+							<a id="viewHeader_lbtnMessageBox" href="javascript:__doPostBack('viewHeader$lbtnMessageBox','')">
+								<span class="messageBoard bold"><img src="Img/message_board.gif" width="14" height="10" border="0">
+									Schránka správ:
+									<span id="viewHeader_NewMessages">0</span>/
+									<span id="viewHeader_AllMessages">0</span></span></a><BR>
+							
+							</TD>
+					</TR>
+					<TR>
+						<TD class="bottom" style="VERTICAL-ALIGN: bottom">
+							<span id="viewHeader_CertRenewalHideArea">
+								<a id="viewHeader_btnAccount" class="bold" href="javascript:__doPostBack('viewHeader$btnAccount','')">Účty</a>&nbsp;<SPAN class="blue">|</SPAN>&nbsp;
+								<a id="viewHeader_btnKL" class="bold" href="javascript:__doPostBack('viewHeader$btnKL','')">Kurzový lístok</a>&nbsp;<SPAN class="blue">|</SPAN>&nbsp;
+							</span>
+							<a id="viewHeader_btnCO" class="bold" onclick="controls_HelpWindow('/Help/sk/help_faq.html','width=750,height=550,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')">Časté otázky</a>&nbsp;<SPAN class="blue">|</SPAN>&nbsp;
+							<a id="viewHeader_btnSecurity" class="bold" href="javascript:__doPostBack('viewHeader$btnSecurity','')">Bezpečnosť</a>&nbsp;<SPAN class="blue">|</SPAN>&nbsp;
+							<a id="viewHeader_btnOD" class="bold" href="javascript:__doPostBack('viewHeader$btnOD','')">Odhlásenie</a></TD>
+					</TR>
+				</TABLE>
+			</TD>
+		</TR>
+	</TABLE>
+</div>
+
+					</td>
+				</tr>
+				<tr id="body">
+					<td>
+						<div style="POSITION:relative">
+							<div style="RIGHT:5px; POSITION:absolute; TOP:50px" class="slink">
+								<a id="lbtnHelpMe" href="javascript:__doPostBack('lbtnHelpMe','')">Poraďte mi >></a>
+							</div>
+						</div>
+						<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+							<tr id="viewTitle_sectionColor" class="sectionBlue">
+	<td class="menu">&nbsp;</td>
+	<td class="line">&nbsp;</td>
+	<td>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<TD id="viewTitle_cellTitle" class="sectionName">úhrada</TD>
+	
+			</tr>
+		</table>
+	</td>
+	<td class="line">&nbsp;</td>
+	<td class="lastcell">&nbsp;</td>
+</tr>
+
+
+							<tr id="center" valign="top">
+								<td class="menu" width="200">
+									
+<script type="text/javascript">
+function DisableEvents(msg)
+{
+	var divMenuCtrl = document.getElementById("divMenuControl");
+	var elAnchor = divMenuCtrl.getElementsByTagName("a");
+	for(i = 0; i < elAnchor.length; i++)
+	{
+		if (!elAnchor[i].attributes["onclick"])
+			elAnchor[i].setAttribute("onclick", "return false;");
+
+		elAnchor[i].attributes["onclick"].value = "return false;";
+		if (typeof(msg) != 'undefined' && msg)
+		{
+			if (elAnchor[i].addEventListener) 
+				elAnchor[i].addEventListener('click', ShowAlert, false);
+			else
+				elAnchor[i].attachEvent('onclick', ShowAlert);
+		}
+			
+		if (elAnchor[i].attributes["href"])
+			elAnchor[i].attributes["href"].value = "#";
+	}
+}
+
+function DisableEventsId(Id, msg)
+{
+	var re = new RegExp(Id,'g');
+	var elements = document.getElementsByTagName('*'), i=0, el;
+	while(el = elements[i++])
+	{
+		if(el.id.match(re))
+		{
+			if (el.attributes["onclick"])
+			{
+				el.attributes["onclick"].value = "return false;";
+
+				if (typeof(msg) != 'undefined' && msg)
+				{
+					if (el.addEventListener) 
+						el.addEventListener('click', ShowAlert, false);
+					else
+						el.attachEvent('onclick', ShowAlert)
+				}
+			}
+			if (el.attributes["href"])
+				el.attributes["href"].value = "#";
+		}
+	}
+}
+
+var msgAlert = "";
+
+function ShowAlert()
+{
+	if (msgAlert != "")
+		alert(msgAlert);	
+	
+	return false;
+}
+
+</script>
+<div id="divMenuControl">
+									<div class="menu">
+<div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:void()" onclick="controls_ShowSubMenu(1);return false">Účty</a></div></div>
+	<div class="subMenu hidden" id="subMenu_1">
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','11')" class="unselected">Účty / zostatok / detail</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','12')" class="unselected">Pohyby na účte</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','14')" class="unselected">Založenie účtu</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','15')" class="unselected">Zrušenie termínovaného účtu</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','16')" class="unselected">Splatnosť termínovaného účtu</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','17')" class="unselected">Služby k termínovanému účtu</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','18')" class="unselected">Cyklus a adresa pre výpisy</a></div>
+</div><div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:void()" onclick="controls_ShowSubMenu(2);return false">Domáce platby</a></div></div>
+	<div class="subMenu" id="subMenu_2">
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','31')" class="selected">Úhrada</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','32')" class="unselected">Hromadná platba</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','33')" class="unselected">Trvalá / Automatická platba</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','34')" class="unselected">Platba cez importné súbory</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','35')" class="unselected">Domáci platobní partneri</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','36')" class="unselected">Prehľad / zmena / odvolanie platieb</a></div>
+</div><div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:void()" onclick="controls_ShowSubMenu(3);return false">Zahraničné platby</a></div></div>
+	<div class="subMenu hidden" id="subMenu_3">
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','41')" class="unselected">Zahraničná platba</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','42')" class="unselected">Zrušenie zahraničnej platby</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','43')" class="unselected">Zahraniční platobní partneri</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','44')" class="unselected">Zasielanie avíz</a></div>
+</div><div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:void()" onclick="controls_ShowSubMenu(4);return false">Inkaso</a></div></div>
+	<div class="subMenu hidden" id="subMenu_4">
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','4011')" class="unselected">Súhlas s inkasom</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','4012')" class="unselected">Zadaj inkaso</a></div>
+</div><div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','50')" class="unselected">Platobné karty</a></div></div>
+<div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','60')" class="unselected">Úvery</a></div></div>
+<div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:void()" onclick="controls_ShowSubMenu(5);return false">Investície</a></div></div>
+	<div class="subMenu hidden" id="subMenu_5">
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','2001')" class="unselected">Moje investície</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','2002')" class="unselected">Investovanie</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','2003')" class="unselected">Presun</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','2004')" class="unselected">Vyplatenie</a></div>
+</div><div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:void()" onclick="controls_ShowSubMenu(6);return false">SMS a e-mail služby</a></div></div>
+	<div class="subMenu hidden" id="subMenu_6">
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','91')" class="unselected">Výpisy</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','92')" class="unselected">Upozornenia na transakcie</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','93')" class="unselected">Ostatné zasielania</a></div>
+</div><div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','2100')" class="unselected">Výpisy</a></div></div>
+<div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:void()" onclick="controls_ShowSubMenu(7);return false">Nastavenia</a></div></div>
+	<div class="subMenu hidden" id="subMenu_7">
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','101')" class="unselected">Môj profil</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','103')" class="unselected">Zmena hesla a PIN</a></div>
+		<div class="subMenu item"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','104')" class="unselected">Moje limity</a></div>
+</div><div class="item"><div class="bullet">&gt;</div><div class="menuText"><a href="javascript:__doPostBack('viewMenu$IBMenuControl','2200')" class="unselected">Dobitie kreditu</a></div></div>
+</div>
+
+	<div style="WIDTH: 100%; PADDING-TOP: 20px" align="center">
+		<img id="viewMenu_imgDobryAnjel" usemap="#DobryAnjelMap" src="/Img/sk/DobryAnjel.gif" alt="" align="Middle" border="0" />
+		<map name="DobryAnjelMap">
+			<area id="areaDobryAnjel" shape="RECT" coords="0,0,103,111" href="javascript:__doPostBack('viewMenu$lbtnDobryAnjel','')">
+		</map>
+		<a id="viewMenu_lbtnDobryAnjel" class="visibility: hidden" href="javascript:__doPostBack('viewMenu$lbtnDobryAnjel','')"></a>
+	</div>
+</div>
+
+								</td>
+								<td class="line">
+									<div class="lineBg"></div>
+								</td>
+								<td class="content" width="100%">
+									
+
+<br>
+<input name="DView:OptDataVisibility" id="DView_OptDataVisibility" type="hidden" value="0" />
+
+
+
+<table id="DView_tblClient_Table" class="padding">
+	<tr>
+		<th colspan="2" class=" first last">
+				Klient</th>
+	</tr>
+	<tr class="line1">
+		<td width="210">
+				<div style="WIDTH: 210px">
+					Číslo účtu:
+				</div>
+			</td>
+		<td>
+				<select name="DView:tblClient:ddlAccountNumbers" id="DView_tblClient_ddlAccountNumbers" class="dropdown" onchange="v_AcctNbrChange(v_Controls, v_Currencies); v_SelectContraAcct(v_Controls); v_ContraBankChange(v_Controls, '30. 3. 2011', '30. 3. 2011');">
+			<option selected="selected" value="0">1801369056 : Flexi&#250;čet</option>
+
+		</select></td>
+	</tr>
+</table>
+
+
+<table id="DView_tblPartner_Table" class="padding">
+	<tr>
+		<th colspan="2" class=" first last">
+				Partner</th>
+	</tr>
+	<tr class="line1">
+		<td width="210">
+				<div style="WIDTH: 210px">
+					Príjemca:
+				</div>
+			</td>
+		<td>
+				<select name="DView:tblPartner:ddPartner" id="DView_tblPartner_ddPartner" class="dropdown" onchange="controls_FillPartnersFields(this, 'DView_tblPartner_txtContraAcctNbr', 'DView_tblPartner_ddContraBankCode', 'DView_tblTransactionData_txtAmount', 'DView_tblTransactionData_txtConstantSymbol', 'DView_tblTransactionData_ddConstantSymbol', 'DView_tblTransactionData_txtVSymbol', 'DView_tblTransactionData_txtSSymbol', 'DView_tblTransactionData_txtAddData', 'DView_tblTransactionData_ddCurrCode');v_ContraBankChange(v_Controls, '30. 3. 2011', '30. 3. 2011');">
+			<option value="0">-- vyberte si --</option>
+			<option value="1">Elektrika</option>
+			<option value="2">Koncesie</option>
+			<option value="3">kooperativa auto</option>
+			<option value="4">Leasing - Auto</option>
+			<option value="5">Mama</option>
+			<option value="6">mbank - jjsan</option>
+			<option value="7">Orange mama</option>
+			<option value="8">poistka auto</option>
+			<option value="9">SPP</option>
+			<option value="10">Tcom</option>
+			<option value="11">test</option>
+			<option value="12">Vodarne</option>
+			<option value="13">zuzulik</option>
+
+		</select>
+		<span id="DView_tblPartner_ddPartner_Data">
+			<span issimpleitem="true" rowid="0" account_bankcode_rowid="31" amount_currency_rowid="5"></span>
+			<span account_number="2000260100" constantsymbol_rowid="1" account_bankcode_rowid="5" account_bankcode_code="8130" specificsymbol="" constantsymbol_symbol="0308" name="Elektrika" amount_value="26,56" additionaldata="ref.c. 006873598" rowid="1" variablesymbol="7501" amount_currency_rowid="5"></span>
+			<span account_number="7000333333" constantsymbol_rowid="1" account_bankcode_rowid="24" account_bankcode_code="8180" specificsymbol="" constantsymbol_symbol="0308" name="Koncesie" amount_value="13,94" additionaldata="" rowid="2" variablesymbol="7720195604" amount_currency_rowid="5"></span>
+			<span account_number="90004012" constantsymbol_rowid="25" account_bankcode_rowid="31" account_bankcode_code="0200" specificsymbol="2514636566" constantsymbol_symbol="3558" name="kooperativa auto" amount_value="24,83" additionaldata="" rowid="3" variablesymbol="6536493701" amount_currency_rowid="5"></span>
+			<span account_number="5284006" constantsymbol_rowid="1" account_bankcode_rowid="29" account_bankcode_code="1111" specificsymbol="" constantsymbol_symbol="0308" name="Leasing - Auto" amount_value="153,26" additionaldata="" rowid="4" variablesymbol="89900719" amount_currency_rowid="5"></span>
+			<span account_number="45416966" constantsymbol_rowid="1" account_bankcode_rowid="23" account_bankcode_code="0900" specificsymbol="" constantsymbol_symbol="0308" name="Mama" amount_value="0,00" additionaldata="" rowid="5" variablesymbol="9" amount_currency_rowid="5"></span>
+			<span account_number="4200071899" constantsymbol_rowid="1" account_bankcode_rowid="3" account_bankcode_code="8360" specificsymbol="" constantsymbol_symbol="0308" name="mbank - jjsan" amount_value="0,00" additionaldata="z vub pre jjsan" rowid="6" variablesymbol="9" amount_currency_rowid="5"></span>
+			<span account_number="2628005850" constantsymbol_rowid="1" account_bankcode_rowid="25" account_bankcode_code="1100" specificsymbol="" constantsymbol_symbol="0308" name="Orange mama" amount_value="0,00" additionaldata="" rowid="7" variablesymbol="0116739772" amount_currency_rowid="5"></span>
+			<span account_number="48134112" constantsymbol_rowid="25" account_bankcode_rowid="31" account_bankcode_code="0200" specificsymbol="" constantsymbol_symbol="3558" name="poistka auto" amount_value="19,62" additionaldata="" rowid="8" variablesymbol="8904014923" amount_currency_rowid="5"></span>
+			<span account_number="1001018151" constantsymbol_rowid="1" account_bankcode_rowid="31" account_bankcode_code="0200" specificsymbol="" constantsymbol_symbol="0308" name="SPP" amount_value="82,32" additionaldata="" rowid="9" variablesymbol="6101641179" amount_currency_rowid="5"></span>
+			<span account_number="2314093958" constantsymbol_rowid="1" account_bankcode_rowid="31" account_bankcode_code="0200" specificsymbol="1182685201" constantsymbol_symbol="0308" name="Tcom" amount_value="13,24" additionaldata="" rowid="10" variablesymbol="9892204228" amount_currency_rowid="5"></span>
+			<span account_number="4200071899" constantsymbol_rowid="0" account_bankcode_rowid="3" account_bankcode_code="8360" specificsymbol="" constantsymbol_symbol="" name="test" amount_value="0,00" additionaldata="" rowid="11" variablesymbol="9" amount_currency_rowid="5"></span>
+			<span account_number="5227136001" constantsymbol_rowid="1" account_bankcode_rowid="9" account_bankcode_code="5600" specificsymbol="" constantsymbol_symbol="0308" name="Vodarne" amount_value="0,00" additionaldata="ref.cislo 003195116" rowid="12" variablesymbol="208844679" amount_currency_rowid="5"></span>
+			<span account_number="1993607353" constantsymbol_rowid="1" account_bankcode_rowid="31" account_bankcode_code="0200" specificsymbol="" constantsymbol_symbol="0308" name="zuzulik" amount_value="0,00" additionaldata="" rowid="13" variablesymbol="9" amount_currency_rowid="5"></span>
+		</span>
+		
+				&nbsp;
+				<a id="DView_tblPartner_HelpIcon1" onclick="controls_HelpWindow('/Help/sk/16_01.html','width=400,height=300,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')"><img src="/Img/ico_help.gif" alt="" border="0" /></a>
+				&nbsp;
+				<a id="DView_tblPartner_lnkAddPartner" onclick="if(!valid_ValidateGroup(valid_AddPartner)) {return false;}" href="javascript:__doPostBack('DView$tblPartner$lnkAddPartner','')">Pridať partnera</a>
+			</td>
+	</tr>
+	<tr class="line2">
+		<td>
+				Číslo účtu / Kód banky:
+			</td>
+		<td>
+				<input name="DView:tblPartner:txtContraAcctNbr" type="text" maxlength="16" id="DView_tblPartner_txtContraAcctNbr" class="textbox90" onblur="format_Account_blur(this);v_FP_DView();" ValidationLabel="Číslo účtu / Kód banky" onfocus="format_Account_focus(this);" /><span ValidatorFor="DView_tblPartner_txtContraAcctNbr" ValidatorFunc="valid_Required" id="DView_tblPartner_txtContraAcctNbr__ctl0"></span><span ValidatorFor="DView_tblPartner_txtContraAcctNbr" ValidatorFunc="valid_Account" id="DView_tblPartner_txtContraAcctNbr__ctl1"></span>
+				<select name="DView:tblPartner:ddlContraMasterSavings" id="DView_tblPartner_ddlContraMasterSavings" class="dropdown">
+			<option value="0">1801369056 : Flexi&#250;čet</option>
+
+		</select>
+				<select name="DView:tblPartner:ddContraBankCode" id="DView_tblPartner_ddContraBankCode" class="dropdown" required="true" onchange="v_ContraBankChange(v_Controls, '30. 3. 2011', '30. 3. 2011');v_FP_DView();" ValidationLabel="Kód banky" SkipValidation="false">
+			<option value="0">-- vyberte si --</option>
+			<option value="1">8380 - AXA BANK EUROPE, POBOČKA ZAHRAN.BANKY</option>
+			<option value="2">8420 - BKS BANK AG, POB. ZAHRANIČNEJ BANKY V SR</option>
+			<option value="3">8360 - BRE BANK SA, POB.ZAHR.BANKY MBANK</option>
+			<option value="4">8020 - CALYON S.A. POB.ZAHR.BANKY</option>
+			<option value="5">8130 - CITIBANK EUROPE PLC, POB.ZAHR.BANKY</option>
+			<option value="6">8050 - COMMERZBANK AKTIENGESELLSCHAFT, BA</option>
+			<option value="7">7500 - ČESKOSLOV.OBCHOD.BANKA A.S.</option>
+			<option value="8">8170 - ČSOB STAVEBN&#193; SPORITEĽŇA,A.S.</option>
+			<option value="9">5600 - DEXIA BANKA SLOVENSKO A.S.</option>
+			<option value="10">8160 - EXIMBANKA SR</option>
+			<option value="11">8330 - FIO BANKA, A.S., POB.ZAHRANIČNEJ BANKY</option>
+			<option value="12">8300 - HSBC BANK PLC, POBOCKA ZAHRANICNEJ BANKY</option>
+			<option value="13">7300 - ING BANK N.V. POBOČKA ZAHR. BANKY</option>
+			<option value="14">8320 - J&amp;T BANKA A.S., POBOČKA ZAHR.BANKY</option>
+			<option value="15">8100 - KOMERČN&#205; BANKA A.S.POB.ZAHRAN.BANKY</option>
+			<option value="16">0720 - N&#193;RODN&#193; BANKA SLOVENSKA</option>
+			<option value="17">8370 - OBERBANK AG POB. ZAHRANIČNEJ BANKY V SR</option>
+			<option value="18">5200 - OTP BANKA SLOVENSKO A.S.</option>
+			<option value="19">6500 - POŠTOV&#193; BANKA A.S.</option>
+			<option value="20">8120 - PRIVATBANKA,A.S.</option>
+			<option value="21">5900 - PRV&#193; STAVEBN&#193; SPORITEĽŇA A.S.</option>
+			<option value="22">3000 - SLOV. ZARUCNA A ROZV. BANKA,A.S.</option>
+			<option value="23">0900 - SLOVENSK&#193; SPORITEĽŇA, A.S.</option>
+			<option value="24">8180 - STATNA POKLADNICA</option>
+			<option value="25">1100 - TATRA BANKA A.S.</option>
+			<option value="26">8350 - THE ROYAL BANK OF SCOTLAND N.V.POB.ZA.B</option>
+			<option value="27">9952 - TRUST PAY, A.S.</option>
+			<option value="28">8340 - UNIBON - SPOŘITELN&#205; A UVĚRN&#205; DRUŽSTVO</option>
+			<option value="29">1111 - UNICREDIT BANK SLOVAKIA, A.S.</option>
+			<option value="30">3100 - VOLKSBANK SLOVENSKO, A.S.</option>
+			<option value="31">0200 - VŠEOBECN&#193; &#218;VEROV&#193; BANKA A.S.</option>
+			<option value="32">7930 - WUSTENROT STAVEBN&#193; SPORITEĽŇA, A.S.</option>
+			<option value="33">8410 - ZUNO BANK AG, POBOČKA ZAHRANIČ. BANKY</option>
+
+		</select>
+		<span id="DView_tblPartner_ddContraBankCode_Data">
+			<span rowid="0" rowval="-- vyberte si --"></span>
+			<span rowid="1" rowval="8380 - AXA BANK EUROPE, POBOČKA ZAHRAN.BANKY"></span>
+			<span rowid="2" rowval="8420 - BKS BANK AG, POB. ZAHRANIČNEJ BANKY V SR"></span>
+			<span rowid="3" rowval="8360 - BRE BANK SA, POB.ZAHR.BANKY MBANK"></span>
+			<span rowid="4" rowval="8020 - CALYON S.A. POB.ZAHR.BANKY"></span>
+			<span rowid="5" rowval="8130 - CITIBANK EUROPE PLC, POB.ZAHR.BANKY"></span>
+			<span rowid="6" rowval="8050 - COMMERZBANK AKTIENGESELLSCHAFT, BA"></span>
+			<span rowid="7" rowval="7500 - ČESKOSLOV.OBCHOD.BANKA A.S."></span>
+			<span rowid="8" rowval="8170 - ČSOB STAVEBNÁ SPORITEĽŇA,A.S."></span>
+			<span rowid="9" rowval="5600 - DEXIA BANKA SLOVENSKO A.S."></span>
+			<span rowid="10" rowval="8160 - EXIMBANKA SR"></span>
+			<span rowid="11" rowval="8330 - FIO BANKA, A.S., POB.ZAHRANIČNEJ BANKY"></span>
+			<span rowid="12" rowval="8300 - HSBC BANK PLC, POBOCKA ZAHRANICNEJ BANKY"></span>
+			<span rowid="13" rowval="7300 - ING BANK N.V. POBOČKA ZAHR. BANKY"></span>
+			<span rowid="14" rowval="8320 - J&T BANKA A.S., POBOČKA ZAHR.BANKY"></span>
+			<span rowid="15" rowval="8100 - KOMERČNÍ BANKA A.S.POB.ZAHRAN.BANKY"></span>
+			<span rowid="16" rowval="0720 - NÁRODNÁ BANKA SLOVENSKA"></span>
+			<span rowid="17" rowval="8370 - OBERBANK AG POB. ZAHRANIČNEJ BANKY V SR"></span>
+			<span rowid="18" rowval="5200 - OTP BANKA SLOVENSKO A.S."></span>
+			<span rowid="19" rowval="6500 - POŠTOVÁ BANKA A.S."></span>
+			<span rowid="20" rowval="8120 - PRIVATBANKA,A.S."></span>
+			<span rowid="21" rowval="5900 - PRVÁ STAVEBNÁ SPORITEĽŇA A.S."></span>
+			<span rowid="22" rowval="3000 - SLOV. ZARUCNA A ROZV. BANKA,A.S."></span>
+			<span rowid="23" rowval="0900 - SLOVENSKÁ SPORITEĽŇA, A.S."></span>
+			<span rowid="24" rowval="8180 - STATNA POKLADNICA"></span>
+			<span rowid="25" rowval="1100 - TATRA BANKA A.S."></span>
+			<span rowid="26" rowval="8350 - THE ROYAL BANK OF SCOTLAND N.V.POB.ZA.B"></span>
+			<span rowid="27" rowval="9952 - TRUST PAY, A.S."></span>
+			<span rowid="28" rowval="8340 - UNIBON - SPOŘITELNÍ A UVĚRNÍ DRUŽSTVO"></span>
+			<span rowid="29" rowval="1111 - UNICREDIT BANK SLOVAKIA, A.S."></span>
+			<span rowid="30" rowval="3100 - VOLKSBANK SLOVENSKO, A.S."></span>
+			<span rowid="31" rowval="0200 - VŠEOBECNÁ ÚVEROVÁ BANKA A.S."></span>
+			<span rowid="32" rowval="7930 - WUSTENROT STAVEBNÁ SPORITEĽŇA, A.S."></span>
+			<span rowid="33" rowval="8410 - ZUNO BANK AG, POBOČKA ZAHRANIČ. BANKY"></span>
+		</span>
+		<span ValidatorFor="DView_tblPartner_ddContraBankCode" ValidatorFunc="valid_DropDownList" id="DView_tblPartner_ddContraBankCode__ctl0"></span>
+				<span id="DView_tblPartner_lblContraBankCode">/ 0200</span>
+				<br>
+				pri účte obsahujúcom pomlčku si pozrite nápovedu
+				&nbsp;
+				<a id="DView_tblPartner_Helpicon2" onclick="controls_HelpWindow('/Help/sk/16_02.html','width=500,height=550,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')"><img src="/Img/ico_help.gif" alt="" border="0" /></a>
+			</td>
+	</tr>
+</table>
+
+
+<table id="DView_tblTransactionData_Table" class="padding">
+	<tr>
+		<th colspan="2" class=" first last">
+				Transakčné údaje</th>
+	</tr>
+	<tr class="line1">
+		<td width="210">
+				<div style="WIDTH: 210px">
+					Suma / mena:
+				</div>
+			</td>
+		<td>
+				<input name="DView:tblTransactionData:txtAmount" type="text" maxlength="16" id="DView_tblTransactionData_txtAmount" class="textbox90" ValidationLabel="Suma / mena" onfocus="format_uCurrency_focus(this);" onblur="format_uCurrency_blur(this);" /><span ValidatorFor="DView_tblTransactionData_txtAmount" ValidatorFunc="valid_Required" id="DView_tblTransactionData_txtAmount__ctl0"></span><span ValidatorFor="DView_tblTransactionData_txtAmount" ValidatorFunc="valid_UnsignedCurrency" id="DView_tblTransactionData_txtAmount__ctl1"></span>&nbsp;
+				<select name="DView:tblTransactionData:ddCurrCode" id="DView_tblTransactionData_ddCurrCode" class="dropdown" ValidationLabel="Suma / mena" SkipValidation="false">
+			<option value="0">-- vyberte si --</option>
+			<option value="1">AUD - AUSTR&#193;LSKY DOL&#193;R</option>
+			<option value="2">CAD - KANADSK&#221; DOL&#193;R</option>
+			<option value="3">CZK - ČESK&#193; KORUNA</option>
+			<option value="4">DKK - D&#193;NSKA KORUNA</option>
+			<option selected="selected" value="5">EUR - EURO</option>
+			<option value="6">GBP - BRITSK&#193; LIBRA</option>
+			<option value="7">HRK - CHORVATSKA KUNA</option>
+			<option value="8">HUF - MAĎARSK&#221; FORINT</option>
+			<option value="9">CHF - ŠVAJČIARSKY FRANK</option>
+			<option value="10">JPY - JAPONSK&#221; JEN</option>
+			<option value="11">NOK - N&#211;RSKA KORUNA</option>
+			<option value="12">PLN - POĽSK&#221; ZLOT&#221;</option>
+			<option value="13">RON - RUMUNSKY LEI</option>
+			<option value="14">SEK - ŠV&#201;DSKA KORUNA</option>
+			<option value="15">TRY - TURECKA LIRA</option>
+			<option value="16">USD - AMERICK&#221; DOL&#193;R</option>
+
+		</select>
+		<span id="DView_tblTransactionData_ddCurrCode_Data">
+			<span rowid="0" rowval="-- vyberte si --"></span>
+			<span rowid="1" rowval="AUD - AUSTRÁLSKY DOLÁR"></span>
+			<span rowid="2" rowval="CAD - KANADSKÝ DOLÁR"></span>
+			<span rowid="3" rowval="CZK - ČESKÁ KORUNA"></span>
+			<span rowid="4" rowval="DKK - DÁNSKA KORUNA"></span>
+			<span rowid="5" rowval="EUR - EURO"></span>
+			<span rowid="6" rowval="GBP - BRITSKÁ LIBRA"></span>
+			<span rowid="7" rowval="HRK - CHORVATSKA KUNA"></span>
+			<span rowid="8" rowval="HUF - MAĎARSKÝ FORINT"></span>
+			<span rowid="9" rowval="CHF - ŠVAJČIARSKY FRANK"></span>
+			<span rowid="10" rowval="JPY - JAPONSKÝ JEN"></span>
+			<span rowid="11" rowval="NOK - NÓRSKA KORUNA"></span>
+			<span rowid="12" rowval="PLN - POĽSKÝ ZLOTÝ"></span>
+			<span rowid="13" rowval="RON - RUMUNSKY LEI"></span>
+			<span rowid="14" rowval="SEK - ŠVÉDSKA KORUNA"></span>
+			<span rowid="15" rowval="TRY - TURECKA LIRA"></span>
+			<span rowid="16" rowval="USD - AMERICKÝ DOLÁR"></span>
+		</span>
+		<span ValidatorFor="DView_tblTransactionData_ddCurrCode" ValidatorFunc="valid_DropDownList" id="DView_tblTransactionData_ddCurrCode__ctl0"></span>&nbsp;
+				<a id="DView_tblTransactionData_Helpicon3" onclick="controls_HelpWindow('/Help/sk/16_08.html','width=400,height=200,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')"><img src="/Img/ico_help.gif" alt="" border="0" /></a>
+			</td>
+	</tr>
+	<tr class="line2">
+		<td>
+				<span id="DView_tblTransactionData_lblDueDate">D&#225;tum splatnosti</span>
+				<span id="DView_tblTransactionData_lblDueValueDate">D&#225;tum splatnosti/valuty</span>:</td>
+		<td>
+				<input name="DView:tblTransactionData:txtDueDate" type="text" maxlength="10" id="DView_tblTransactionData_txtDueDate" class="textbox90" ScreenDataKey="7" ValidationLabel="Dátum splatnosti" onfocus="format_Date_focus(this);" onblur="format_Date_blur(this);" /><span ValidatorFor="DView_tblTransactionData_txtDueDate" ValidatorFunc="valid_Required" id="DView_tblTransactionData_txtDueDate__ctl0"></span><span ValidatorFor="DView_tblTransactionData_txtDueDate" ValidatorFunc="valid_Date" id="DView_tblTransactionData_txtDueDate__ctl1"></span><a href="javascript:controls_OpenCalendar('DView_tblTransactionData_txtDueDate');"><img src="/Img/calendar.gif" alt="" border="0" /></a>&nbsp;
+				<a id="DView_tblTransactionData_Helpicon4" onclick="controls_HelpWindow('/Help/sk/16_10.html','width=400,height=300,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')"><img src="/Img/ico_help.gif" alt="" border="0" /></a></td>
+	</tr>
+	<tr class="line1">
+		<td>
+				Variabilný symbol:</td>
+		<td>
+				<input name="DView:tblTransactionData:txtVSymbol" type="text" value="9" maxlength="10" id="DView_tblTransactionData_txtVSymbol" class="textbox90" ValidationLabel="Variabilný symbol" /><span ValidatorFor="DView_tblTransactionData_txtVSymbol" ValidatorFunc="valid_Numeric" id="DView_tblTransactionData_txtVSymbol__ctl0"></span>&nbsp;
+				<a id="DView_tblTransactionData_Helpicon6" onclick="controls_HelpWindow('/Help/sk/16_05.html','width=400,height=200,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')"><img src="/Img/ico_help.gif" alt="" border="0" /></a></td>
+	</tr>
+	<tr class="line2">
+		<td>
+				Doplňujúce údaje:</td>
+		<td>
+				<input name="DView:tblTransactionData:txtAddData" type="text" maxlength="35" id="DView_tblTransactionData_txtAddData" class="textbox270" ValidationLabel="Doplňujúce údaje" /><span ValidatorFor="DView_tblTransactionData_txtAddData" ValidatorFunc="valid_Comment" id="DView_tblTransactionData_txtAddData__ctl0"></span>&nbsp;
+				<a id="DView_tblTransactionData_Helpicon8" onclick="controls_HelpWindow('/Help/sk/16_07.html','width=400,height=200,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')"><img src="/Img/ico_help.gif" alt="" border="0" /></a></td>
+	</tr>
+	<tr class="line1">
+		<td>
+				<a id="DView_tblTransactionData_lnkOptData" CaptionOptional="Nepovinné údaje" onclick="return v_ShowOptional(v_Controls)" href="javascript:__doPostBack('DView$tblTransactionData$lnkOptData','')">Nepovinné údaje</a>
+			</td>
+		<td></td>
+	</tr>
+	<tr id="DView_tblTransactionData_trSSymbol" class="line2">
+		<td>
+				Špecifický symbol:</td>
+		<td>
+				<input name="DView:tblTransactionData:txtSSymbol" type="text" maxlength="10" id="DView_tblTransactionData_txtSSymbol" class="textbox90" ValidationLabel="Špecifický symbol" /><span ValidatorFor="DView_tblTransactionData_txtSSymbol" ValidatorFunc="valid_Numeric" id="DView_tblTransactionData_txtSSymbol__ctl0"></span>&nbsp;
+				<a id="DView_tblTransactionData_Helpicon7" onclick="controls_HelpWindow('/Help/sk/16_06.html','width=400,height=200,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')"><img src="/Img/ico_help.gif" alt="" border="0" /></a></td>
+	</tr>
+	<tr id="DView_tblTransactionData_trKSymbol" class="line1">
+		<td>
+				Konštantný symbol:
+			</td>
+		<td>
+				<input name="DView:tblTransactionData:txtConstantSymbol" type="text" maxlength="4" id="DView_tblTransactionData_txtConstantSymbol" class="textbox90" ValidationLabel="Konštantný symbol" onblur="controls_ConstantSymbolFind(this,true,'DView_tblTransactionData_ddConstantSymbol');" /><span ValidatorFor="DView_tblTransactionData_txtConstantSymbol" ValidatorFunc="valid_Numeric" id="DView_tblTransactionData_txtConstantSymbol__ctl0"></span>&nbsp;
+				<select name="DView:tblTransactionData:ddConstantSymbol" id="DView_tblTransactionData_ddConstantSymbol" class="dropdown" onchange="controls_ConstantSymbolSelected(this,'DView_tblTransactionData_txtConstantSymbol');">
+			<option value="0">-- vyberte konštantn&#253; symbol --</option>
+			<option value="1">0308 - Platby za služby</option>
+			<option value="2">0008 - Platby za tovar</option>
+			<option value="3">0028 - Platby za dod&#225;vky investičnej povahy</option>
+			<option value="4">0038 - Prostriedky na mzdy</option>
+			<option value="5">0068 - Prevody na mzdy / ostatn&#233; osobn&#233; n&#225;klady</option>
+			<option value="6">0138 - Zr&#225;žky z miezd</option>
+			<option value="7">0168 - Spl&#225;tky &#250;verov a p&#244;žičiek</option>
+			<option value="8">0298 - Ostatn&#233; bezhotovostn&#233; prevody</option>
+			<option value="9">0304 - Platby za služby prednostn&#233;</option>
+			<option value="10">0358 - Hotovostn&#233; platby cez poštu</option>
+			<option value="11">0498 - Spl&#225;tka &#250;verov a požičiek</option>
+			<option value="12">0558 - Finančn&#233; platby ostatn&#233;</option>
+			<option value="13">0934 - D&#225;vky soci&#225;lneho zabezpečenia</option>
+			<option value="14">0964 - Ostatn&#233; prevody prednostn&#233;</option>
+			<option value="15">0968 - Ostatn&#233; prevody</option>
+			<option value="16">1144 - Bežn&#225; z&#225;loha dane</option>
+			<option value="17">1148 - Bežn&#225; z&#225;loha dane</option>
+			<option value="18">1744 - Vy&#250;čtovanie dane za posledn&#233; zdaň. obdobie</option>
+			<option value="19">1748 - Vy&#250;čtovanie dane za posledn&#233; zdaň. obdobie</option>
+			<option value="20">2144 - Dodatočne vyruben&#225; daň</option>
+			<option value="21">2558 - &#218;hrady poist.plnen&#237; poisťovňami</option>
+			<option value="22">3118 - Poistn&#233; a pr&#237;spevok zamestn&#225;vateľa do poisťovn&#237;</option>
+			<option value="23">3148 - Pen&#225;le z kontroly</option>
+			<option value="24">3344 - Sankčn&#253; &#250;rok, pen&#225;le</option>
+			<option value="25">3558 - Platby poistn&#233;ho poisťovniam</option>
+			<option value="26">3718 - N&#225;jomn&#233; za pren&#225;jom vo vzťahu k šr</option>
+			<option value="27">4058 - V&#253;nosy z cenn&#253;ch papierov</option>
+			<option value="28">5144 - Zv&#253;šenie dane</option>
+			<option value="29">6144 - Dodatočn&#225; platba z daňovej inšpekcie</option>
+			<option value="30">6344 - Pokuta z kontroly</option>
+			<option value="31">6544 - Pokuta zo spr&#225;vy</option>
+			<option value="32">6744 - Pokuty vyruben&#233; dańovou inšpekciou</option>
+			<option value="33">7344 - &#218;rok pri odklade platenia</option>
+			<option value="34">7544 - Exekučn&#233; n&#225;klady</option>
+			<option value="35">7944 - Blokov&#233; pokuty vyruben&#233; daňov&#253;m &#250;radom</option>
+			<option value="36">8144 - Platba (&#250;čtovan&#225; s&#250;časne s predpisom)</option>
+
+		</select>
+		<span id="DView_tblTransactionData_ddConstantSymbol_Data">
+			<span symbol=""></span>
+			<span symbol="0308"></span>
+			<span symbol="0008"></span>
+			<span symbol="0028"></span>
+			<span symbol="0038"></span>
+			<span symbol="0068"></span>
+			<span symbol="0138"></span>
+			<span symbol="0168"></span>
+			<span symbol="0298"></span>
+			<span symbol="0304"></span>
+			<span symbol="0358"></span>
+			<span symbol="0498"></span>
+			<span symbol="0558"></span>
+			<span symbol="0934"></span>
+			<span symbol="0964"></span>
+			<span symbol="0968"></span>
+			<span symbol="1144"></span>
+			<span symbol="1148"></span>
+			<span symbol="1744"></span>
+			<span symbol="1748"></span>
+			<span symbol="2144"></span>
+			<span symbol="2558"></span>
+			<span symbol="3118"></span>
+			<span symbol="3148"></span>
+			<span symbol="3344"></span>
+			<span symbol="3558"></span>
+			<span symbol="3718"></span>
+			<span symbol="4058"></span>
+			<span symbol="5144"></span>
+			<span symbol="6144"></span>
+			<span symbol="6344"></span>
+			<span symbol="6544"></span>
+			<span symbol="6744"></span>
+			<span symbol="7344"></span>
+			<span symbol="7544"></span>
+			<span symbol="7944"></span>
+			<span symbol="8144"></span>
+		</span>
+		&nbsp;
+				<a id="DView_tblTransactionData_Helpicon5" onclick="controls_HelpWindow('/Help/sk/16_04.html','width=400,height=200,top=200,left=20,resizable=no,scrollbars=yes,status=no,menubar=no');" href="javascript:void('')"><img src="/Img/ico_help.gif" alt="" border="0" /></a></td>
+	</tr>
+	<tr id="DView_tblTransactionData_trAccelPmt" class="line2">
+		<td>
+				Zadať platbu ako zrýchlenú:
+			</td>
+		<td>
+				<input id="DView_tblTransactionData_chbAccelPayment" type="checkbox" name="DView:tblTransactionData:chbAccelPayment" /><label for="DView_tblTransactionData_chbAccelPayment">Zr&#253;chlen&#225; &#250;hrada do inej banky zadan&#225; elektronicky je v zmysle plan&#233;ho Cenn&#237;ka V&#218;B spoplatnen&#225; sumou 16,80 EUR.</label></td>
+	</tr>
+</table>
+<br>
+
+<table id="DView_NotifiactionsTable_Table" class="padding">
+	<tr>
+		<th colspan="2" class=" first last">
+				Zaslať potvrdenku o transakcii na</th>
+	</tr>
+	<tr id="DView_NotifiactionsTable_Notif_C0" class="line1">
+		<td width="210"><input id="DView_NotifiactionsTable_Notif_C0_IsSelected" type="checkbox" name="DView:NotifiactionsTable:Notif_C0_IsSelected" onclick="var myControls = new Array();myControls['Selected'] = document.getElementById('DView_NotifiactionsTable_Notif_C0_IsSelected');myControls['Text'] = document.getElementById('DView_NotifiactionsTable_Notif_C0_Input');myControls['Encrypt'] = document.getElementById('DView_NotifiactionsTable_Notif_C0_IsEncrypted');myControls['InShort'] = document.getElementById('Notif_C0_IsShort');controls_EnableEmail(myControls);" /><label for="DView_NotifiactionsTable_Notif_C0_IsSelected">E-mailov&#225; adresa</label>:</td>
+		<td><input name="DView:NotifiactionsTable:Notif_C0_Input" type="text" value="juraj.janecek@gmail.com" maxlength="250" id="DView_NotifiactionsTable_Notif_C0_Input" disabled="disabled" class="textbox270 disabled" ValidationLabel="E-mailová adresa" SkipValidation="true" onfocus="format_Email_focus(this);" onblur="format_Email_blur(this);" /><span ValidatorFor="DView_NotifiactionsTable_Notif_C0_Input" ValidatorFunc="valid_Required" id="DView_NotifiactionsTable_Notif_C0_Input__ctl0"></span><span ValidatorFor="DView_NotifiactionsTable_Notif_C0_Input" ValidatorFunc="valid_Email" id="DView_NotifiactionsTable_Notif_C0_Input__ctl1"></span>&nbsp;&nbsp;<span disabled="disabled"><input id="DView_NotifiactionsTable_Notif_C0_IsEncrypted" type="checkbox" name="DView:NotifiactionsTable:Notif_C0_IsEncrypted" disabled="disabled" /><label for="DView_NotifiactionsTable_Notif_C0_IsEncrypted">šifrovane</label></span></td>
+	</tr>
+</table>
+
+
+<br>
+<input type="submit" name="DView:btnCheckData" value="Overiť údaje" id="DView_btnCheckData" onclick="if(!valid_ValidateGroup(valid_Group1)) {return false;}" /><br>
+<br>
+<br>
+<span ValidatorFor="DView_tblTransactionData_txtAmount" ValidatorFunc="valid_UnsignedCurrency" id="DView__ctl0"></span>
+									
+<div class="links">
+	<div>
+		<a id="viewFooter_hlHelp" onclick="controls_HelpWindow('/Help/sk/Help_16.html','width=750, height=550, scrollbars=1, resizable=0, location=0, menubar=0, status=1, toolbar=0');" href="javascript:void('')"><img src="/Img/sk/dot_help.gif" alt="" border="0" /></a>
+	</div>
+	<div>
+		<a id="viewFooter_hlPrint" href="javascript:window.print()"><img src="/Img/sk/dot_print.gif" alt="" border="0" /></a>
+	</div>
+</div>
+
+								</td>
+								<td>
+<style type="text/css">
+	.divDummy { width: 170px; height: 30px }
+	.divContent { width: 170px; padding: 3px 5px 3px 5px; border: solid 1px green; }
+	</style>
+<script type="text/javascript" language="javascript">
+	var ZoneID = -1;
+	var CampaignID = -1;
+	
+	function ReportZoneClick(zone, campaignID)
+	{
+		if (zone != -1)
+		{
+			ZoneID = zone;
+			CampaignID = campaignID;
+		}
+		
+		return true;
+	}
+</script>
+<input name="viewAdvertising:hdnReportZoneClick" id="viewAdvertising_hdnReportZoneClick" type="hidden" />
+
+
+</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr id="blankSeparator">
+					<td>&nbsp;</td>
+				</tr>
+				<tr id="footer">
+					<td>
+						<div class="text">
+							<div class="left"><img id="Image1" src="/Img/sk/contact.gif" alt="" border="0" /></div>
+							<div class="right">© VÚB, a.s.</div>
+						</div>
+						<div class="textPrint">
+							<img src="img/dot_black.gif" width="100%" height="1"> Všeobecná úverová banka, 
+							a. s., Mlynské nivy, 829 90 Bratislava, IČO: 31 320 155<br>
+							Obchodný register: Okresný súd Bratislava I, Oddiel: Sa, Vložka číslo: 341/B
+						</div>
+						<img src="..\favicon.ico" width="1" height="1" border="0" alt="" style="visibility:hidden">
+					</td>
+				</tr>
+			</table>
+		
+<script language="javascript" type="text/javascript">
+<!--
+	var v_Currencies =  new Array('EUR');
+	var valid_Group1 =  new Array('DView_tblPartner_txtContraAcctNbr__ctl0', 'DView_tblPartner_txtContraAcctNbr__ctl1', 'DView_tblPartner_ddContraBankCode__ctl0', 'DView_tblTransactionData_txtAmount__ctl0', 'DView_tblTransactionData_txtAmount__ctl1', 'DView_tblTransactionData_ddCurrCode__ctl0', 'DView_tblTransactionData_txtDueDate__ctl0', 'DView_tblTransactionData_txtDueDate__ctl1', 'DView_tblTransactionData_txtVSymbol__ctl0', 'DView_tblTransactionData_txtAddData__ctl0', 'DView_tblTransactionData_txtSSymbol__ctl0', 'DView_tblTransactionData_txtConstantSymbol__ctl0', 'DView_NotifiactionsTable_Notif_C0_Input__ctl0', 'DView_NotifiactionsTable_Notif_C0_Input__ctl1');
+	var valid_AddPartner =  new Array('DView__ctl0');
+		// -->
+</script>
+
+			<script language="javascript" type="text/javascript">var v_Controls = new Array();v_Controls['ddlAccountNumbers'] = document.getElementById('DView_tblClient_ddlAccountNumbers');v_Controls['txtDueDate'] = document.getElementById('DView_tblTransactionData_txtDueDate');v_Controls['lblDueValueDate'] = document.getElementById('DView_tblTransactionData_lblDueValueDate');v_Controls['lblDueDate'] = document.getElementById('DView_tblTransactionData_lblDueDate');v_Controls['txtContraAcctNbr'] = document.getElementById('DView_tblPartner_txtContraAcctNbr');v_Controls['ddlContraMasterSavings'] = document.getElementById('DView_tblPartner_ddlContraMasterSavings');v_Controls['ddContraBankCode'] = document.getElementById('DView_tblPartner_ddContraBankCode');v_Controls['lblContraBankCode'] = document.getElementById('DView_tblPartner_lblContraBankCode');v_Controls['txtAmount'] = document.getElementById('DView_tblTransactionData_txtAmount');v_Controls['ddCurrCode'] = document.getElementById('DView_tblTransactionData_ddCurrCode');v_Controls['ddPartner'] = document.getElementById('DView_tblPartner_ddPartner');v_Controls['lnkOptData'] = document.getElementById('DView_tblTransactionData_lnkOptData');v_Controls['trSSymbol'] = document.getElementById('DView_tblTransactionData_trSSymbol');v_Controls['trKSymbol'] = document.getElementById('DView_tblTransactionData_trKSymbol');v_Controls['trAccelPmt'] = document.getElementById('DView_tblTransactionData_trAccelPmt');v_Controls['chbAccelPayment'] = document.getElementById('DView_tblTransactionData_chbAccelPayment');v_Controls['OptDataVisibility'] = document.getElementById('DView_OptDataVisibility');</script>
+
+			<script language="javascript" type="text/javascript">var accountsMasterSavings = new Array();</script>
+
+			<script language="javascript" type="text/javascript">var fnFP_CMS = 'v_FP_DView();';</script>
+
+			<script language="javascript" type="text/javascript">v_Initialize(v_Controls, '30. 3. 2011', '30. 3. 2011');</script>
+
+		</form>
+	</body>
+</HTML>
+

@@ -1,0 +1,1 @@
+Bankdroid is a an application for android devices... Swedbank, Nordea and ICA Banken.
